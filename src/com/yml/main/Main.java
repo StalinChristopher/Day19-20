@@ -7,6 +7,7 @@ import com.yml.algorithms.BinarySearch;
 import com.yml.algorithms.BubbleSort;
 import com.yml.algorithms.InsertionSort;
 import com.yml.algorithms.MergeSort;
+import com.yml.algorithms.PrimeNumbers;
 
 public class Main {
 
@@ -21,7 +22,9 @@ public class Main {
 
 		// MergeSort.run();
 
-		Anagram.run();
+		// Anagram.run();
+
+		PrimeNumbers.run();
 	}
 
 }
