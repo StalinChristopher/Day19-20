@@ -8,6 +8,7 @@ import com.yml.algorithms.BubbleSort;
 import com.yml.algorithms.InsertionSort;
 import com.yml.algorithms.MergeSort;
 import com.yml.algorithms.PrimeNumbers;
+import com.yml.algorithms.PrimeNumbersPalindrome;
 
 public class Main {
 
@@ -24,7 +25,9 @@ public class Main {
 
 		// Anagram.run();
 
-		PrimeNumbers.run();
+		// PrimeNumbers.run();
+
+		PrimeNumbersPalindrome.run();
 	}
 
 }
