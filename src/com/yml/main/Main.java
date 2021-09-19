@@ -2,6 +2,7 @@ package com.yml.main;
 
 import java.io.FileNotFoundException;
 
+import com.yml.algorithms.Anagram;
 import com.yml.algorithms.BinarySearch;
 import com.yml.algorithms.BubbleSort;
 import com.yml.algorithms.InsertionSort;
@@ -18,7 +19,9 @@ public class Main {
 
 		// BubbleSort.run();
 
-		MergeSort.run();
+		// MergeSort.run();
+
+		Anagram.run();
 	}
 
 }
