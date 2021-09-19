@@ -9,6 +9,9 @@ public class PrimeNumbers {
         primeNumbers();
     }
 
+    /**
+     * Method to find and print prime Numbers between the given range
+     */
     private static void primeNumbers(){
         if(min < 2 )
             min  = 2;
