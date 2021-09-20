@@ -5,6 +5,7 @@ import java.io.FileNotFoundException;
 import com.yml.algorithms.Anagram;
 import com.yml.algorithms.BinarySearch;
 import com.yml.algorithms.BubbleSort;
+import com.yml.algorithms.FindNumber;
 import com.yml.algorithms.Generics;
 import com.yml.algorithms.InsertionSort;
 import com.yml.algorithms.MergeSort;
@@ -30,7 +31,9 @@ public class Main {
 
 		// PrimeNumbersPalindrome.run();
 
-		Generics.run();
+		// Generics.run();
+
+		FindNumber.run(args[0]);
 	}
 
 }
